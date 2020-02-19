@@ -6,8 +6,8 @@ class PyBot:
         super().__init__()
 
     def init(self):
-        self.token ='1071924346:AAEEzY1BokxY-6lONZMC5VVNm661R24Cg2A'
-        self.bot_id = '913685701'
+        self.token ='YOUR TOKEN'
+        self.bot_id = 'YOUR BOT ID'
         self.updater = Updater(self.token, use_context=True)
         self.updater.dispatcher.add_handler(CommandHandler('hello',self.hello))
         self.updater.dispatcher.add_handler(CommandHandler('check',self.check))
