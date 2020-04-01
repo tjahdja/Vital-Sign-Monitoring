@@ -12,7 +12,7 @@ ESP8266WebServer server(80);
 void setup() {
 
   Serial.begin(9600);
-  WiFi.begin("CV.GLOBAL SOLUSINDO", "cvglobalsolusindo123456");  //Connect to the WiFi network
+  WiFi.begin("Your Wifi Name", "Your Wifi Password");  //Connect to the WiFi network
 
   while (WiFi.status() != WL_CONNECTED) {  //Wait for connection
 
